@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Portfolio from '@/components/Portfolio';
+import Interactive3DShowcase from '@/components/Interactive3DShowcase';
 import Services from '@/components/Services';
 import Process from '@/components/Process';
 import About from '@/components/About';
@@ -15,6 +16,7 @@ export default function Index() {
       <Navbar />
       <Hero />
       <Portfolio />
+      <Interactive3DShowcase />
       <Services />
       <Process />
       <About />
